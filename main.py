@@ -12,6 +12,7 @@ import random
 number = int(input('Введите число элементов в списке: '))
 x = int(input('Введите число от 0-10, которое нужно найти: '))
 count = 0
+
 list_input = [random.randint(0, 10) for i in range(number)]
 print(list_input)
 for i in list_input:
